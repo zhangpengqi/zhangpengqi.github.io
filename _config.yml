@@ -5,9 +5,9 @@ kramdown:
 permalink: /posts/:categories/:title # 博文目录
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
 
-title: 张鹏奇的个人博客
-url: https://zhangpengqi.github.io/
-author: zhangpengqi
+title: wu-kan
+url: http://wu-kan.github.io
+author: WuK
 
 head: # 删改前确定知道自己在做什么
 - tag: meta # Enable responsiveness on mobile devices
@@ -185,11 +185,11 @@ sidebar:
   - title: rss
     href: /atom.xml
     class: 'fas fa-rss fa-fw'
-  - title:125654634@qq.com # email
+  - title: wu.kan@foxmail.com # email
     href: mailto:wu.kan@foxmail.com
     class: 'fas fa-envelope fa-fw'
   - title: github
-    href: //github.com/zhangpengqi
+    href: //github.com/wu-kan
     class: 'fab fa-github fa-fw'
   - title: WuK # codeforces
     href: //codeforces.com/profile/WuK
@@ -197,11 +197,13 @@ sidebar:
   - title: WuK # vjudge
     href: //vjudge.net/user/WuK
     class: 'fas fa-smile fa-fw'
-  - title: 125654634 # qq
+  - title: 942759535 # qq
     class: 'fab fa-qq fa-fw'
-  - title: 张鹏奇 # weixin
+  - title: Wu-_-Kan # weixin
     class: 'fab fa-weixin fa-fw'
-
+  - title: zhihu
+    href: //www.zhihu.com/people/wu.kan/activities
+    class: 'fab fa-zhihu fa-fw'
   nav:
   - title: '<i class="fas fa-home fa-fw"></i> 首页'
     href: /
@@ -253,7 +255,9 @@ sidebar:
 
 index:
   showtag:
-
+  - 人生经验
+  - ICPC模板
+  - 水野爱
 
 post:
   meta:
