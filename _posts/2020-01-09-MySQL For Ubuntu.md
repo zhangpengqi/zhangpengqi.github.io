@@ -34,24 +34,30 @@ sudo apt-get install libmysqlclient-dev    //程序编译时链接的库
 `sudo service mysql restart`
 或
 `sudo systemctl restart mysql.service`
+
 **停止MySQL数据库服务**
 `sudo service mysql stop`
 或
 `sudo systemctl stop mysql.service`
+
 **查看MySQL运行状态**
 sudo service mysql status
 或
 `sudo systemctl status mysql.service`
+
 **设置MySQL服务开机自启动**
 `sudo service mysql enable`
 或
 `sudo systemctl enable mysql.service`
+
 **停止MySQL服务开机自启动**
 `sudo service mysql disable`
 或
 `sudo systemctl disable mysql.service`
+
 **MySQL的配置文件**
 `sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf`
+
 ————————————————
 版权声明：本文为CSDN博主「奉君逍遥」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/hwx865/article/details/90287715
